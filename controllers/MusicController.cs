@@ -5,7 +5,7 @@ using mymusic.model;
 namespace mymusic.controllers
 {
     [ApiController]
-    [Route("api/[controller]/")]
+    [Route("/musics/")]
     public class MusicController : ControllerBase
     {
         public readonly ApplicationDbContext _context;
