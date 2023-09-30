@@ -8,8 +8,7 @@ namespace mymusic.data
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
     {
     }
-
-    // Defina DbSet para suas entidades aqui
+    
     public DbSet<Music> Musics { get; set; }
 }
 }
