@@ -30,5 +30,12 @@ namespace mymusic.controllers
                 
             }
         }
+
+        [HttpGet]
+        public IActionResult Get()
+        {
+            dynamic allMusics = _context.Musics.ToList();
+            return Ok(allMusics);
+        }
     }
 }
