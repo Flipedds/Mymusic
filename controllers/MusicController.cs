@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Mvc;
 using mymusic.data;
 using mymusic.model;
 
-
 namespace mymusic.controllers
 {
     [ApiController]
@@ -36,6 +35,27 @@ namespace mymusic.controllers
         {
             dynamic allMusics = _context.Musics.ToList();
             return Ok(allMusics);
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            try
+            {
+                var music = _context.Musics.Find(id);
+
+                if(music == null){
+                    return NotFound();
+                }
+                _context.Musics.Remove(music);
+                _context.SaveChanges();
+                return Ok("Music deleted");      
+            }
+            catch (Exception e)
+            {
+                
+                throw e;
+            }     
         }
     }
 }
