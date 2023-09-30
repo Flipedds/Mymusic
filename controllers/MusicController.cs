@@ -23,9 +23,9 @@ namespace mymusic.controllers
                 _context.SaveChanges();
                 return Ok(music);
             }
-            catch (Exception e)
+            catch (Exception)
             {
-                throw e;
+                return BadRequest();
                 
             }
         }
@@ -51,10 +51,9 @@ namespace mymusic.controllers
                 _context.SaveChanges();
                 return Ok("Music deleted");      
             }
-            catch (Exception e)
+            catch (Exception)
             {
-                
-                throw e;
+                return BadRequest();
             }     
         }
     }
