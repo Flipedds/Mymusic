@@ -2,23 +2,33 @@ using Microsoft.AspNetCore.Mvc;
 using mymusic.data;
 using mymusic.model;
 
+
 namespace mymusic.controllers
 {
-    public class MusicController
+    [ApiController]
+    [Route("api/[controller]/")]
+    public class MusicController : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
+        public readonly ApplicationDbContext _context;
         public MusicController(ApplicationDbContext context)
         {
             _context = context;
         }
 
         [HttpPost]
-        [Route("music")]
-        public IActionResult create(Music music)
+        public IActionResult Create(Music music)
         {
-            _context?.Add(music);
-            _context?.SaveChanges();
-            return (IActionResult)music;
+            try
+            {
+                _context.Add(music);
+                _context.SaveChanges();
+                return Ok(music);
+            }
+            catch (Exception e)
+            {
+                throw e;
+                
+            }
         }
     }
 }
