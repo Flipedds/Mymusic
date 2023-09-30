@@ -56,5 +56,32 @@ namespace mymusic.controllers
                 return BadRequest();
             }     
         }
+
+        [HttpPut("{id}")]
+        public IActionResult Atualizar(int id, Music music)
+        {
+            try
+            {
+                var musicBanco = _context.Musics.Find(id);
+                if(musicBanco == null){
+                    return NotFound();
+                }
+                musicBanco.Title = music.Title;
+                musicBanco.Artist = music.Artist;
+                musicBanco.Composer = music.Composer;
+                musicBanco.Album = music.Album;
+                musicBanco.MusicalGenre = music.MusicalGenre;
+                musicBanco.Duration = music.Duration;
+
+                _context.Musics.Update(musicBanco);
+                _context.SaveChanges();
+                return Ok(musicBanco);
+            }
+            catch (System.Exception)
+            {
+                
+                return BadRequest();
+            }
+        }
     }
 }
