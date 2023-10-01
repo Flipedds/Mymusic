@@ -37,7 +37,7 @@ namespace mymusic.controllers
             return Ok(allMusics);
         }
 
-        [HttpGet("find/{title}")]
+        [HttpGet("search/{title}")]
         public IActionResult Search(string title)
         {
             try
