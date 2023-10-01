@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using mymusic.model;
+using mymusic.models;
 
 namespace mymusic.data
 {

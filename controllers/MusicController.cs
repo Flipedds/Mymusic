@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using mymusic.data;
-using mymusic.model;
+using mymusic.models;
 
 namespace mymusic.controllers
 {
@@ -43,6 +43,10 @@ namespace mymusic.controllers
             try
             {
                 var music = _context.Musics.Find(id);
+
+                if (music == null){
+                    return NotFound();
+                }
                 return Ok(music);
             }
             catch (System.Exception)

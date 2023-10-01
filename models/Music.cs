@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace mymusic.model
+namespace mymusic.models
 {
     public class Music
     {
