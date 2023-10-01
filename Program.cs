@@ -10,9 +10,19 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins", builder =>
+    {
+        builder.AllowAnyOrigin()
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+    
+});
 
 var app = builder.Build();
-
+app.UseCors("AllowAllOrigins");
 app.UseHttpsRedirection();
 
 if (app.Environment.IsDevelopment())
