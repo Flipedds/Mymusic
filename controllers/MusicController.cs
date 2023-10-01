@@ -37,6 +37,21 @@ namespace mymusic.controllers
             return Ok(allMusics);
         }
 
+        [HttpGet("{id}")]
+        public IActionResult Search(int id)
+        {
+            try
+            {
+                var music = _context.Musics.Find(id);
+                return Ok(music);
+            }
+            catch (System.Exception)
+            {
+                
+                return BadRequest();
+            }
+        }
+
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
@@ -79,7 +94,6 @@ namespace mymusic.controllers
             }
             catch (System.Exception)
             {
-                
                 return BadRequest();
             }
         }
