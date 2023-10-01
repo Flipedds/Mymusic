@@ -37,12 +37,14 @@ namespace mymusic.controllers
             return Ok(allMusics);
         }
 
-        [HttpGet("{id}")]
-        public IActionResult Search(int id)
+        [HttpGet("{title}")]
+        public IActionResult Search(string title)
         {
             try
             {
-                var music = _context.Musics.Find(id);
+                var music = _context.Musics
+                                    .Where(m => m.Title == title)
+                                    .FirstOrDefault();
 
                 if (music == null){
                     return NotFound();
