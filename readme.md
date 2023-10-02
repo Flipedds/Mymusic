@@ -1,4 +1,4 @@
-# Rest Api utilizando C# (Mymusic)
+# Web api mvc utilizando C# asp.net (Mymusic)
 
 Rest api de músicas criada para a disciplina de análise e projeto de sistemas.
 
@@ -8,6 +8,8 @@ Rest api de músicas criada para a disciplina de análise e projeto de sistemas.
     ✔️ Listar todas as músicas
     ✔️ remover música
     ✔️ Atualiza música
+    ✔️ Pesquisar por id
+    ✔️ Pesquisar por nome
 
 # Como utilizar
 
