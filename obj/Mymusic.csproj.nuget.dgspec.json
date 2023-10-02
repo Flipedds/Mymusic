@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\felip\\Music\\Mymusic\\Mymusic.csproj": {}
+    "c:\\Users\\felip\\Music\\Mymusic\\Mymusic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\felip\\Music\\Mymusic\\Mymusic.csproj": {
+    "c:\\Users\\felip\\Music\\Mymusic\\Mymusic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\felip\\Music\\Mymusic\\Mymusic.csproj",
+        "projectUniqueName": "c:\\Users\\felip\\Music\\Mymusic\\Mymusic.csproj",
         "projectName": "Mymusic",
-        "projectPath": "C:\\Users\\felip\\Music\\Mymusic\\Mymusic.csproj",
+        "projectPath": "c:\\Users\\felip\\Music\\Mymusic\\Mymusic.csproj",
         "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\felip\\Music\\Mymusic\\obj\\",
+        "outputPath": "c:\\Users\\felip\\Music\\Mymusic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config"

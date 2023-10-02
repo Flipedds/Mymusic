@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "djdSLT8lOLqmqQEbEfX8ZPJtvbwlfv4QJ7Ju2pcuYMOQ8ApfmQHaE8aQcgNwv2AGwhWuBCXrxTxiJ811fcQe+g==",
+  "dgSpecHash": "KZcKG9VA9biDCk3ub+HXC56HuxKyAwCCMKcd3/G8B6KSYfO0cnNdowHz4EBAM/1PK/f2+zBFGJJXL5Cy8c2zzw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\felip\\Music\\Mymusic\\Mymusic.csproj",
+  "projectFilePath": "c:\\Users\\felip\\Music\\Mymusic\\Mymusic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\felip\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

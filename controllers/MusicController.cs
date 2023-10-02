@@ -88,7 +88,7 @@ namespace mymusic.controllers
                 }
                 _context.Musics.Remove(music);
                 _context.SaveChanges();
-                return Ok("Music deleted");      
+                return Ok();      
             }
             catch (Exception)
             {
