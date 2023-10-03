@@ -63,3 +63,4 @@ C:\Users\felip\Music\Mymusic\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\felip\Music\Mymusic\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\felip\Music\Mymusic\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\felip\Music\Mymusic\obj\Debug\net7.0\Mymusic.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\felip\Music\Mymusic\bin\Debug\net7.0\Mymusic.staticwebassets.runtime.json

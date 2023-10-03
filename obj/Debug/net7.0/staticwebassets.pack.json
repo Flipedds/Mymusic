@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\felip\\Music\\Mymusic\\wwwroot\\css\\styles.66a316883face51a.css",
+      "PackagePath": "staticwebassets\\css\\styles.66a316883face51a.css"
+    },
+    {
+      "Id": "C:\\Users\\felip\\Music\\Mymusic\\wwwroot\\img\\icon.jpg",
+      "PackagePath": "staticwebassets\\img\\icon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\felip\\Music\\Mymusic\\wwwroot\\img\\logout.png",
+      "PackagePath": "staticwebassets\\img\\logout.png"
+    },
+    {
+      "Id": "C:\\Users\\felip\\Music\\Mymusic\\wwwroot\\js\\main.1c24b021a326e73b.js",
+      "PackagePath": "staticwebassets\\js\\main.1c24b021a326e73b.js"
+    },
+    {
+      "Id": "C:\\Users\\felip\\Music\\Mymusic\\wwwroot\\js\\polyfills.599185e2de08fb58.js",
+      "PackagePath": "staticwebassets\\js\\polyfills.599185e2de08fb58.js"
+    },
+    {
+      "Id": "C:\\Users\\felip\\Music\\Mymusic\\wwwroot\\js\\runtime.6e85646f59a65823.js",
+      "PackagePath": "staticwebassets\\js\\runtime.6e85646f59a65823.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Mymusic.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Mymusic.props",
+      "PackagePath": "build\\Mymusic.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Mymusic.props",
+      "PackagePath": "buildMultiTargeting\\Mymusic.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Mymusic.props",
+      "PackagePath": "buildTransitive\\Mymusic.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
