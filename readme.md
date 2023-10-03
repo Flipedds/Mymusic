@@ -1,4 +1,4 @@
-# Web api mvc utilizando C# asp.net (Mymusic)
+# Web api mvc utilizando C# asp.net e Angular (Mymusic)
 
 Web api mvc de músicas criada para a disciplina de análise e projeto de sistemas.
 
@@ -10,17 +10,15 @@ Web api mvc de músicas criada para a disciplina de análise e projeto de sistem
     ✔️ Atualiza música
     ✔️ Pesquisar por id
     ✔️ Pesquisar por nome
-
-# Como utilizar
-
-    • Tenha a versão 7 do .Net devidamente instalada
-    • Clone o repositório localmente
-    • cd "localização da pasta onde foi clonado"
-    • dotnet watch
-
 # Acessando documentação OpenApi
 
     • Acesse localhost:3170/swagger
+
+# Utiliza
+
+    .Net 7
+    Angular 16
+    .NetEntityframework
 
 # Acessando View
     http://localhost:5170/app/
