@@ -1,8 +1,8 @@
 # Web api mvc utilizando C# asp.net (Mymusic)
 
-Rest api de músicas criada para a disciplina de análise e projeto de sistemas.
+Web api mvc de músicas criada para a disciplina de análise e projeto de sistemas.
 
-# Funcionalidades
+# Funcionalidades da *api
 
     ✔️ Adicionar música
     ✔️ Listar todas as músicas
@@ -21,3 +21,6 @@ Rest api de músicas criada para a disciplina de análise e projeto de sistemas.
 # Acessando documentação OpenApi
 
     • Acesse localhost:3170/swagger
+
+# Acessando View
+    http://localhost:5170/app/
