@@ -4,7 +4,7 @@ namespace mymusic.controllers
 {
 
     [ApiController]
-    [Route("/")]
+    [Route("app/")]
     public class ViewController: ControllerBase
     {
 
@@ -13,7 +13,7 @@ namespace mymusic.controllers
         {
             _hostEnviroment = hostEnvironment;
         }
-
+        [HttpGet]
         public IActionResult Index()
         {
             string filePath = "views/mymusic-front/index.html";
