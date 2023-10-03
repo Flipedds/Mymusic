@@ -4,7 +4,7 @@ namespace mymusic.controllers
 {
 
     [ApiController]
-    [Route("app/")]
+    [Route("/")]
     public class ViewController: ControllerBase
     {
 
